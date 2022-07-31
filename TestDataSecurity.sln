@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestDataSecurity", "TestDataSecurity\TestDataSecurity.csproj", "{3AD10368-227D-44D3-A390-4D326B3BECE4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WhiteBlackList.Web", "WhiteBlackList.Web\WhiteBlackList.Web.csproj", "{8A5A2E94-69AB-47AE-9191-153144EB7479}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SecretProtection.Web", "SecretProtection.Web\SecretProtection.Web.csproj", "{B70772A4-3326-4E27-909E-A2D2022B7E38}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyWebApi", "MyWebApi\MyWebApi.csproj", "{7995F1FD-AD12-4CB6-8514-81EB0352E03C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyWeb.Web", "MyWeb.Web\MyWeb.Web.csproj", "{E246366E-A3A8-4B01-800A-4BD863CBB049}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XSS.Web", "XSS.Web\XSS.Web.csproj", "{BEFE6C53-598B-433D-BD04-03BFAC0EC02A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3AD10368-227D-44D3-A390-4D326B3BECE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AD10368-227D-44D3-A390-4D326B3BECE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AD10368-227D-44D3-A390-4D326B3BECE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AD10368-227D-44D3-A390-4D326B3BECE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A5A2E94-69AB-47AE-9191-153144EB7479}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A5A2E94-69AB-47AE-9191-153144EB7479}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A5A2E94-69AB-47AE-9191-153144EB7479}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A5A2E94-69AB-47AE-9191-153144EB7479}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B70772A4-3326-4E27-909E-A2D2022B7E38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B70772A4-3326-4E27-909E-A2D2022B7E38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B70772A4-3326-4E27-909E-A2D2022B7E38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B70772A4-3326-4E27-909E-A2D2022B7E38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7995F1FD-AD12-4CB6-8514-81EB0352E03C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7995F1FD-AD12-4CB6-8514-81EB0352E03C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7995F1FD-AD12-4CB6-8514-81EB0352E03C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7995F1FD-AD12-4CB6-8514-81EB0352E03C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E246366E-A3A8-4B01-800A-4BD863CBB049}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E246366E-A3A8-4B01-800A-4BD863CBB049}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E246366E-A3A8-4B01-800A-4BD863CBB049}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E246366E-A3A8-4B01-800A-4BD863CBB049}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEFE6C53-598B-433D-BD04-03BFAC0EC02A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEFE6C53-598B-433D-BD04-03BFAC0EC02A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEFE6C53-598B-433D-BD04-03BFAC0EC02A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEFE6C53-598B-433D-BD04-03BFAC0EC02A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BE07EE22-4005-4B1F-9FA2-233C99E3F0F1}
+	EndGlobalSection
+EndGlobal

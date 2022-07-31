@@ -1,0 +1,41 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>CommentAdd</title>
+</head>
+<body>
+    <form method="post">
+        <input type="text" name="name"/>
+        <br />
+        <textarea name="comment"></textarea>
+        <br />
+        <input type="submit" value="yorum gönder"/>
+
+
+    </form>
+    <h1>
+
+        yorumlar
+
+
+    </h1>
+    @if (ViewBag.comments != null)
+    {
+        foreach (var item in ViewBag.comments as string[])
+        {
+            <span> @item </span>
+            <hr />
+        }
+    }
+    @*  <strong>>@ViewBag.name</strong>*@  @*@ bu işaret sayesinde önlemiş oluruyoruz. kötü niyetli yazılımları programımıza enjekte etmemiş oluyoruz*@
+    <hr/>
+   @* <span>@Html.Raw(ViewBag.comment)</span>*@ @*Yazılan kötü niyetli kod uygulamamıza enjecte ediyor*@
+</body>
+</html>
